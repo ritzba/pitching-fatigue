@@ -21,15 +21,15 @@ x = lateral (positive numbers are to catcher's right/pitcher's left)
 y = forward (toward home plate)
 <p>
 z = vertical
-*  pitch_type - type of pitch, as evaluated by MLB's modeling, including stored data regarding the pitcher's repertoire
-* player_name - pitcher's first and last name 
-*  release_speed - initial pitch speed in mph
-*  release_spin_rate - initial spin rate in rpm
-*  release_pos_x, release_pos_y, release_pos_z - release position in x, y, z directions
-    ** distances measured from center of pitcher's mound
-    ** x and z directions measured in feet, y direction measured in inches
-*  vx0, vy0, vz0 - initial velocity in x, y, z directions (feet/sec)
-*  ax, ay, az - acceleration in x, y, z directions (feet/sec ^ 2)
+*pitch_type - type of pitch, as evaluated by MLB's modeling, including stored data regarding the pitcher's repertoire
+*player_name - pitcher's first and last name 
+*release_speed - initial pitch speed in mph
+*release_spin_rate - initial spin rate in rpm
+*release_pos_x, release_pos_y, release_pos_z - release position in x, y, z directions
+   **distances measured from center of pitcher's mound
+    **x and z directions measured in feet, y direction measured in inches
+*vx0, vy0, vz0 - initial velocity in x, y, z directions (feet/sec)
+*ax, ay, az - acceleration in x, y, z directions (feet/sec ^ 2)
     
 ##  Conclusions
     
